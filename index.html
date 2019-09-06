@@ -37,12 +37,13 @@ Bucknor, Ejigbo Lagos.</p>
       <div style="float: right"
      <h4><b>Contact Form</b></h4>
                       <table width="450px">
+					<form>
            <tbody><tr>
             <td valign="top">
              <label for="first_name">Title *</label>
             </td>
             <td valign="top">
-             <input type="text" name="title" id="title">
+             <input type="text" name="title" id="title" required>
             </td>
            </tr>
            <tr>
@@ -50,7 +51,7 @@ Bucknor, Ejigbo Lagos.</p>
              <label for="name">Name *</label>
             </td>
             <td valign="top">
-             <input type="text" name="name" id="first_name" minlength="4">
+             <input type="text" name="name" id="first_name" minlength="4" required>
             </td>
            </tr>
            <tr>
@@ -58,7 +59,7 @@ Bucknor, Ejigbo Lagos.</p>
              <label for="email">Email Address *</label>
             </td>
             <td valign="top">
-             <input type="email" name="email">
+             <input type="email" name="email" required>
             </td>
            </tr>
            <tr>
@@ -66,7 +67,7 @@ Bucknor, Ejigbo Lagos.</p>
              <label for="comments">message *</label>
             </td>
             <td valign="top">
-             <textarea name="comments" maxlength="20" cols="25" rows="6"></textarea>
+             <textarea name="comments" maxlength="20" cols="25" rows="6" required></textarea>
             </td>
            </tr>
            <tr>
@@ -74,8 +75,14 @@ Bucknor, Ejigbo Lagos.</p>
               <button type="submit">Submit</button>
            </td>
            </tr>
-           </tbody></table>
+           </tbody>
+					 </form>
+					 </table>
 </div></li></ul>
-          </form>
   </body>
 </html>
+Collapse
+
+
+
+
